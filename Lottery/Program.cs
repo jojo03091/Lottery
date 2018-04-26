@@ -18,7 +18,6 @@ namespace Lottery
 
             // 重複10次
             while (count <= 11) {
-
                 // 用亂數物件產生亂數
                 int r1 = rand.Next(1, 43);
                 int r2 = rand.Next(1, 43);
